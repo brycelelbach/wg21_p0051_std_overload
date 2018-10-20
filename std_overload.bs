@@ -1,0 +1,117 @@
+<!--
+Distributed under the Boost Software License v1.0 (boost.org/LICENSE_1_0.txt)
+-->
+<pre class='metadata'>
+Title: `std::overload` 
+H1: <code>std::overload</code>
+Shortname: P0051
+Revision: 4
+Status: D
+Group: WG21
+Audience: LWG
+Editor: JeanHeyd Meneide, phdofthehouse@gmail.com
+Editor: Vicente J. Botet Escribá, vicente.botet@wanadoo.fr
+Editor: Bryce Adelstein Lelbach, NVIDIA, brycelelbach@gmail.com
+URL: https://wg21.link/P0051R1
+!Source: <a href="https://github.com/brycelelbach/wg21_p0051_std_overload/blob/master/std_overload.bs">GitHub</a>
+Issue Tracking: GitHub https://github.com/brycelelbach/wg21_p0051_std_overload/issues
+Metadata Order: Author, This Version, Source, Issue Tracking, Project, Audience
+Markup Shorthands: markdown yes
+Toggle Diffs: no
+No Abstract: yes
+Boilerplate: style-syntax-highlighting off
+</pre>
+
+<style>
+pre {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.ins, ins, ins *, span.ins, span.ins * {
+  background-color: rgb(200, 250, 200);
+  color: rgb(0, 136, 0);
+  text-decoration: none;
+}
+.del, del, del *, span.del, span.del * {
+  background-color: rgb(250, 200, 200);
+  color: rgb(255, 0, 0);
+  text-decoration: line-through;
+  text-decoration-color: rgb(255, 0, 0);
+}
+math, span.math {
+  font-family: serif;
+  font-style: italic;
+}
+ul {
+  list-style-type: "— ";
+}
+blockquote {
+  counter-reset: paragraph;
+}
+div.numbered, div.newnumbered {
+  margin-left: 2em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+div.numbered:before, div.newnumbered:before {
+  position: absolute;
+  margin-left: -2em;
+  display-style: block;
+}
+div.numbered:before {
+  content: counter(paragraph);
+  counter-increment: paragraph;
+}
+div.newnumbered:before {
+  content: "�";
+}
+div.numbered ul, div.newnumbered ul {
+  counter-reset: list_item;
+}
+div.numbered li, div.newnumbered li {
+  margin-left: 3em;
+}
+div.numbered li:before, div.newnumbered li:before {
+  position: absolute;
+  margin-left: -4.8em;
+  display-style: block;
+}
+div.numbered li:before {
+  content: "(" counter(paragraph) "." counter(list_item) ")";
+  counter-increment: list_item;
+}
+div.newnumbered li:before {
+  content: "(�." counter(list_item) ")";
+  counter-increment: list_item;
+}
+</style>
+
+# Introduction # {#intro}
+
+TODO
+
+# Motivation # {#motivation#}
+
+# History #
+
+## Review ## {#review#}
+
+TODO
+
+## Changelog ## {#changelog}
+
+TODO
+
+# Wording # {#wording}
+
+Note: The following changes are relative to the post Rapperswil 2018 working draft of ISO/IEC 14882, 
+([[N4762]]).
+
+Note: The � character is used to denote a placeholder number which shall be selected by the editor.
+
+<!--
+Look at https://github.com/brycelelbach/wg21_p1135_cpp20_synchronization_library for examples of how to use my stylesheet
+It does stuff like automatic paragraph and bulleted list numbering
+-->
+
+TODO
